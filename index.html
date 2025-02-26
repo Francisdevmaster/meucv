@@ -1,26 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto vmo5</title><style>p { color :pink;    
-}
-h1
+    <title>Página Pessoal</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            padding: 40px;
+        }
+        .foto {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-size: 18px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            margin-top: 40px;
+        }
     </style>
 </head>
 <body>
-    <h1>Projeto de aula</h1>
-    <h2>Projeto 2</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat quisquam numquam ex cum consectetur perspiciatis tempore eos voluptatum sed. Reprehenderit earum doloremque molestiae dolor cum veritatis velit, dolorum provident!
 
-    <table border="1">
-</tr><th>produto</th>
-                <td>vestido</td>
-                <td>$150,00</td>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Bem-vindo à minha página!</h1>
+        <img src="sua-foto.jpg" alt="Minha foto" class="foto">
+    </header>
 
-<th></th><th>preço</th>
-<td>camisa</td>
-<td>$100,00</td>
-    </table>
+    <!-- Menu de navegação -->
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#redes">Minhas Redes</a>
+    </nav>
+
+    <!-- Seção "Sobre" -->
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Olá! Eu sou [Seu Nome]. Aqui você pode conhecer um pouco mais sobre mim e minhas atividades. Adoro compartilhar meus projetos e interagir com pessoas de várias áreas. Fique à vontade para me conhecer melhor!</p>
+    </section>
+
+    <!-- Seção "Minhas Redes" -->
+    <section id="redes">
+        <h2>Minhas Redes</h2>
+        <p>Conecte-se comigo nas minhas redes sociais:</p>
+        <ul>
+            <li><a href="https://www.instagram.com/seuusuario" target="_blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com/seuusuario" target="_blank">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/seuusuario" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <!-- Rodapé com copyright -->
+    <footer>
+        <p>&copy; 2025 [Seu Nome]. Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>
